@@ -57,11 +57,8 @@
     
     
     
-    //初始化位置
-    _selectedIndex = 1;
     self.contentOffset = CGPointMake(self.frame.size.width, 0);
     
-//    NSLog(@"%ld", _selectedIndex);
 }
 
 
@@ -118,9 +115,9 @@
     
     _imgs = selfImgs;
     
-    leftImgView.image = _imgs[0];
-    centerImgView.image = _imgs[1];
-    rightImgView.image = _imgs[2];
+    leftImgView.image = _imgs.lastObject;
+    centerImgView.image = _imgs[0];
+    rightImgView.image = _imgs[1];
 }
 
 
