@@ -10,9 +10,9 @@
 
 @interface CycleScrollView ()
 {
-    UIImageView *leftImgView;
-    UIImageView *centerImgView;
-    UIImageView *rightImgView;
+    UIImageView *leftImgView;   //左
+    UIImageView *centerImgView; //中
+    UIImageView *rightImgView;  //右
 }
 
 @end
