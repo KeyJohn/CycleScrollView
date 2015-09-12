@@ -108,6 +108,7 @@
 {
     NSMutableArray *selfImgs = [NSMutableArray arrayWithArray:imgs];
     
+    //优化
     if (imgs.count < 3) {
         [selfImgs addObjectsFromArray:imgs];
         [selfImgs addObjectsFromArray:imgs];
