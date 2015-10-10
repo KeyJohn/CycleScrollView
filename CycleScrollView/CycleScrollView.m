@@ -15,6 +15,7 @@
     UIImageView *rightImgView;  //右
 }
 
+
 @end
 
 @implementation CycleScrollView
