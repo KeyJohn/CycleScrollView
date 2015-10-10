@@ -6,6 +6,15 @@
 //  Copyright (c) 2015年 keyzhang. All rights reserved.
 //
 
+/**
+ *  封装能循环滑动的ScrollView
+ *
+ *  尽可能地少占用资源
+ *
+ *
+ *
+ */
+
 #import <UIKit/UIKit.h>
 
 @interface CycleScrollView : UIScrollView<UIScrollViewDelegate>
